@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="br.pro.mateus.authnotify.LoginFragment"
+        android:label="@string/login_fragment_label"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/SignUpFragment" />
+
+        <action
+            android:id="@+id/action_login_to_info"
+            app:destination="@id/InfoFragment" />
+
+        <action
+            android:id="@+id/action_login_to_notifications_disabled"
+            app:destination="@id/NotificationsAreDisabledFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignUpFragment"
+        android:name="br.pro.mateus.authnotify.SignUpFragment"
+        android:label="@string/signup_fragment_label"
+        tools:layout="@layout/fragment_signup">
+
+        <action
+            android:id="@+id/action_signup_to_login"
+            app:destination="@id/LoginFragment" />
+
+        <action
+            android:id="@+id/action_signup_to_info"
+            app:destination="@id/LoginFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/NotificationsAreDisabledFragment"
+        android:name="br.pro.mateus.authnotify.NotificationsAreDisabledFragment"
+        android:label="@string/notifications_are_disabled_fragment_label"
+        tools:layout="@layout/fragment_notifications_are_disabled">
+
+        <action
+            android:id="@+id/action_info_to_login"
+            app:destination="@id/LoginFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/InfoFragment"
+        android:name="br.pro.mateus.authnotify.InfoFragment"
+        android:label="@string/info_fragment_label"
+        tools:layout="@layout/fragment_info">
+
+        <action
+            android:id="@+id/action_info_to_login"
+            app:destination="@id/LoginFragment" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AuthNotify</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="login_fragment_label">Login</string>
+    <string name="signup_fragment_label">Sign Up</string>
+    <string name="info_fragment_label">Info</string>
+    <string name="notifications_are_disabled_fragment_label">Notificações desabilitadas</string>
+
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="default_notification_channel_id" translatable="false">canal_padrao</string>
+    <string name="fcm_default_title_message" translatable="false">Mensagem</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

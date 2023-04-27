@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941361053703",
+    "project_id": "authnotify-7b53c",
+    "storage_bucket": "authnotify-7b53c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941361053703:android:b874015671aaab94af2aa2",
+        "android_client_info": {
+          "package_name": "br.pro.mateus.authnotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941361053703-fnrfcubpbqf5ijau4sl85ln85tpsib1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASojDyPsU2Vzx5sUJ-qgkiTawyeMBVWmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941361053703-fnrfcubpbqf5ijau4sl85ln85tpsib1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
